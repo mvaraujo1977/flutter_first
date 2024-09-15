@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
         ),
         home: Container(
-          color: Colors.white,
+          color: Colors.yellow.shade50,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.center,
