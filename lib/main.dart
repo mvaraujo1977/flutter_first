@@ -59,6 +59,10 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               ElevatedButton(
+                style: ButtonStyle(
+                  backgroundColor:
+                      MaterialStateProperty.all(Colors.green.shade100),
+                ),
                 onPressed: () {
                   print('Você apertou o Botão');
                 },
